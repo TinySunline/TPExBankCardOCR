@@ -16,7 +16,7 @@
 
 -(instancetype)init{
     if (self=[super init]) {
-        Class tinyPlus=NSClassFromString(@"tinyPlus");
+        Class tinyPlus=NSClassFromString(@"TinyPlus");
         if (tinyPlus) {
            id tinyPlusInPod  = [[tinyPlus alloc] init];
             if([tinyPlusInPod respondsToSelector:@selector(getViewController)]){
