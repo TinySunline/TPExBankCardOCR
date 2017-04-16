@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     'TPExBankCardOCR' => ['TPExBankCardOCR/Assets/ExBankCardRes.bundle']
   }
 
-  s.vendored_frameworks = 'TPExIdentityCardOCR/Assets/ExBankCardSDK.framework'
+  s.vendored_frameworks = 'TPExBankCardOCR/Assets/ExBankCardSDK.framework'
 
   #s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
