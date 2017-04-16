@@ -7,7 +7,7 @@
 //
 
 #import "TPExBankCardOCRViewController.h"
-#import <TPExBankCardOCR/TPExBankCardOCR.h>
+//#import <TPExBankCardOCR/TPExBankCardOCR.h>
 
 @interface TPExBankCardOCRViewController ()
 
@@ -19,8 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    TPExBankCardOCR *exBankCardOCR = [[TPExBankCardOCR alloc]init];
-    [exBankCardOCR camera];
+//    TPExBankCardOCR *exBankCardOCR = [[TPExBankCardOCR alloc]init];
+//    [exBankCardOCR camera];
     
     
     
