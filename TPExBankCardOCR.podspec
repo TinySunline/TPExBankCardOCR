@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TPExBankCardOCR'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '易道博识银行卡OCR'
 
 # This description is used to generate tags and improve search results.
